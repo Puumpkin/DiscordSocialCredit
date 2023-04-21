@@ -1,5 +1,7 @@
 //Bot that stores a score to each discord user that people can give to each other
 //The score will be stored in a JSON file and will be loaded on startup
+//Made by puumpkin
+
 require("dotenv").config();
 const fs = require("fs");
 const { token } = process.env;
