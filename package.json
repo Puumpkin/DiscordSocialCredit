@@ -1,0 +1,23 @@
+{
+
+  "name": "socialcreditbot",
+  "version": "1.0.0",
+  "main": "src/SocialCredit.js",
+ 
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [],
+  "author": "Puumpkin",
+  "license": "GPLv3",
+  "description": "",
+
+  "dependencies": {
+    "@discordjs/rest": "^1.7.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.39",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security"
+  }
+}
