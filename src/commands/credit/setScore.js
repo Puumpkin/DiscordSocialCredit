@@ -18,7 +18,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setRawTitle("Score Set")
             .setRawDescription("The score for " + user.username + " has been set to " + score)
-            .setFooter({ text: 'Bot made by @Pumpkin#4201', iconURL: 'https://imgur.com/AVOHJrC' })
+            .setFooter({ text: 'Bot made by Pumpkin#4201', iconURL: 'https://imgur.com/AVOHJrC' })
             .setTimestamp()
             .setColor("RANDOM")
         await interaction.reply({
