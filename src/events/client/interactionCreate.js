@@ -13,7 +13,7 @@ module.exports = {
       } catch (error) {
         console.error(error);
         await interaction.reply({
-          content: "Pumpkin is dumb and this command broke!",
+          content: "syuzu is dumb and this command broke!",
           ephemeral: true,
         });
       }
